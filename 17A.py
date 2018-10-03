@@ -1,4 +1,4 @@
-n,m=input().split()
+n,m=input().split()//to take many inputs in a single line
 n,m=int(n),int(m)
 l=[]
 k=0
@@ -23,7 +23,7 @@ for i in range(2,n+1):
     if count>=m:
                     break
         
-           
+//printing if condition           
 if len(l)<m or count<m:
     print("NO")
 else:
